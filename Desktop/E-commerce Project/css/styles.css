@@ -1,0 +1,156 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration:none ;
+    font-family: 'Segoe UI',sans-serif;
+    font-weight:bold ;
+}
+img{
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+h1,h3,h4{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+h2{
+    font-family: chiller;
+}
+p{
+    font-family: 'Segoe UI', sans-serif;
+
+}
+#navbar .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#navbar .container .navlinks ul{
+    display: flex;
+}
+#navbar .container .navlinks ul li{
+    padding: 1rem;
+    padding-left: 1rem;
+}
+#navbar{
+    position: sticky;
+    z-index: 2;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 1rem;
+    
+}
+#section1,
+#section2,
+#section3,
+#section4,
+#section5{
+    padding-top: 4rem;
+}
+#section1 .container{
+    height: 80vh;
+    background: url(../images/landing-image/Image197.png) no-repeat;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center
+}
+#section1 .container .shop{
+    background: #ffffff;
+}
+#section1 .container .shop h1{
+    font-size: 30px;
+}
+.btn{
+    display: inline-block;
+    border: none;
+    background:#f4f4f4;
+    color:#333;
+    padding: 0.5rem 2rem;
+}
+
+.btn-shadow{
+    box-shadow: 2px 2px black;
+}
+.btn-border{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0.5rem 2rem;
+}
+#section2 .container,
+#section3 .container,
+#section4 .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+}
+#section2 .container .text{
+    position: relative;
+    top: 50%;
+}
+.women-text{
+    padding: 2rem;
+}
+.color{
+    text-align: center;
+}
+.color-red{
+    text-align: center;
+    color: red;
+}
+#section5 .container{
+    padding-bottom: 20rem;
+    background-image: url(../images/landing-image/big-shoes.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70%;
+    position: relative;
+    top: 50%;
+    
+}
+
+#main-footer{
+    background: #fbfbfb;
+    padding: 2rem;
+    
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    grid-gap: 1rem;
+    color: #333333;
+    font-size: 1rem;
+    height: 270px;
+}
+.btn-black{
+    display: inline-block;
+    border: none;
+    background:black;
+    color:#ffffff;
+    padding: 0.5rem 1rem;
+}
+.news{
+    padding-right: 4rem;
+}
+.newsletter{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+.hh{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+.explore{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
