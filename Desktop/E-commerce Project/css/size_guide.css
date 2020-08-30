@@ -1,0 +1,71 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration:none ;
+    font-family: 'Segoe UI',sans-serif;
+    font-weight:bold ;
+}
+li{
+    list-style: none;
+}
+h1,h2,h3,h4{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+p{
+    font-family: 'Segoe UI', sans-serif;
+}
+table{
+    background: #ffffff;
+    box-sizing: content-box;
+    box-shadow: 2px 2px #000000;
+}
+td{
+    padding-right: 2rem;
+}
+th{
+    padding-right: 3rem;
+}
+tr{
+    line-height: 3rem;
+}
+.container{
+    max-width: 700px;
+    margin: auto;
+    padding: 0 1rem;
+    
+}
+.container h3{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+#section1 .container .float .color{
+    position: relative;
+    left: 60%;
+    display: flex;
+}
+#section1 .container .float .color .black{
+    padding: 1rem;
+    background: black;
+    color: #ffffff;
+}
+#section1 .container .float .color .white{
+    padding: 1rem;
+}
+.float{
+    display: flex;
+} 
+.copy{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.explore{
+    float: left;
+}
+.pull-right{
+    float: right;
+}

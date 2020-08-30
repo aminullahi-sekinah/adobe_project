@@ -1,0 +1,66 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration:none ;
+    font-family: 'Segoe UI',sans-serif;
+    font-weight:bold ;
+}
+img{
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+h3{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+h2{
+    font-family: chiller;
+}
+p{
+    font-family: 'Segoe UI',sans-serif;
+    color: #757575;
+    text-transform: uppercase;
+}
+header ul {
+    display: flex;
+    
+}
+header ul li {
+    padding: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 1rem;
+    
+}
+.container .category{
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2rem;
+}
+.container .category p{
+    line-height: 2rem;
+}
+.container .category h3{
+    padding-bottom: 2rem;
+    text-decoration: underline;
+}
+.container .category .object4, .object5{
+    padding-top: 4rem;
+    width: 200px;
+}
+.container .category .object4{
+    position: relative;
+    top: 15%;
+    width: 300px;
+}

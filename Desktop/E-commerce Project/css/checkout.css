@@ -1,0 +1,110 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration:none ;
+    font-family: 'Segoe UI',sans-serif;
+    font-weight:bold ;
+}
+li{
+    list-style: none;
+}
+h1,h3,h4{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+h2{
+    font-family: chiller;
+}
+p{
+    font-family: 'Segoe UI', sans-serif;
+}
+input{
+    padding-top: 3rem;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 1rem;
+}
+.container_container{
+    max-width: 500px;
+    margin: auto;
+    padding: 0 1rem;
+    position: relative;
+    right: 28%;
+    background: #ffffff;
+    box-sizing: content-box;
+    box-shadow: 1px 1px #e4e4e4;
+}
+
+.container_container1{
+    max-width: 500px;
+    margin: auto;
+    padding: 0 1rem;
+    position: relative;
+    right: 28%;
+    background: #ffffff;
+    box-sizing: content-box;
+    box-shadow: 1px 1px #e4e4e4;
+}
+.container_container2{
+    max-width: 500px;
+    margin: auto;
+    padding: 0 1rem;
+    position: relative;
+    right: 28%;
+    background: #ffffff;
+    box-sizing: content-box;
+    box-shadow: 1px 1px #e4e4e4;
+}
+}
+.price{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.center{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.btns{
+    padding-top: 2rem;
+}
+.explore{
+    float: left;
+    padding: 2rem;
+}
+.pull-right{
+    float: right;
+    padding: 2rem;
+}
+.view{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+.btn{
+    display: inline-block;
+    border: none;
+    color:#333;
+    padding: 0.5rem 2rem;
+    border: 1px solid #e4e4e4;
+}
+.btn1{
+    display: inline-block;
+    border: none;
+    color:#333;
+    padding: 0.5rem 11rem;
+    border: 1px solid #e4e4e4;
+}
+.btn-black{
+    display: inline-block;
+    border: none;
+    background:black;
+    color:#ffffff;
+    padding: 0.5rem 2rem;
+}
