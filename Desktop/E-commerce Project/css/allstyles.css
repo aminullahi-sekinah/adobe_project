@@ -31,6 +31,11 @@ p{
     padding: 0 1rem;
     
 }
+.container-container{
+    max-width: 800px;
+    margin: auto;
+    padding: 0 1rem;
+}
 #navbar .container{
     display: flex;
     justify-content: space-between;
@@ -117,9 +122,8 @@ input[type='text']::placeholder{
     position: absolute;
     z-index: 999;
     margin: 0 auto;
-    left: 25rem;
-    right: 0;
-    top: 80%;
+    right: 3%;
+    top: 78%;
     width: 30px;
     height: 30px;
     line-height: 30px;

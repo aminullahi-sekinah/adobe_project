@@ -32,6 +32,12 @@ p{
     padding: 0 1rem;
     
 }
+.container-container{
+    max-width: 800px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
 .btn{
     display: inline-block;
     border: none;
@@ -111,9 +117,8 @@ strong{
     position: absolute;
     z-index: 999;
     margin: 0 auto;
-    left: 25rem;
-    right: 0;
-    top: 80%;
+    right: 5%;
+    top: 78%;
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -131,7 +136,6 @@ strong{
     width: 35px;
     height: 30px;
     top: 5%;
-    right: 90%;
     text-align: center;
 
 }

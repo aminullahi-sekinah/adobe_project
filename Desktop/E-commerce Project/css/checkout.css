@@ -9,6 +9,10 @@ a {
     font-family: 'Segoe UI',sans-serif;
     font-weight:bold ;
 }
+img{
+    width: 70px;
+    height: 70px;
+}
 li{
     list-style: none;
 }
@@ -18,6 +22,9 @@ h1,h3,h4{
 }
 h2{
     font-family: chiller;
+}
+h3{
+    padding-bottom: 1rem;
 }
 p{
     font-family: 'Segoe UI', sans-serif;
@@ -37,6 +44,7 @@ input{
     position: relative;
     right: 28%;
     background: #ffffff;
+    border: 1px solid #e4e4e4;
     box-sizing: content-box;
     box-shadow: 1px 1px #e4e4e4;
 }
@@ -48,6 +56,7 @@ input{
     position: relative;
     right: 28%;
     background: #ffffff;
+    border: 1px solid #e4e4e4;
     box-sizing: content-box;
     box-shadow: 1px 1px #e4e4e4;
 }
@@ -58,9 +67,46 @@ input{
     position: relative;
     right: 28%;
     background: #ffffff;
+    border: 1px solid #e4e4e4;
     box-sizing: content-box;
     box-shadow: 1px 1px #e4e4e4;
 }
+
+.container_container22{
+    max-width: 500px;
+    margin: auto;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    right: 28%;
+    background: #ffffff;
+    border: 1px solid #e4e4e4;
+    box-sizing: content-box;
+    box-shadow: 1px 1px #e4e4e4;
+    text-align: center;
+}
+.container_container_right{
+    max-width: 300px;
+    margin: auto;
+    padding: 0 1rem;
+    position: absolute;
+    right: 28%; 
+    top: 7%;
+    background: #ffffff;
+}
+.container_box_content{
+    padding:  1rem;
+    border: 1px solid #e4e4e4;
+    box-sizing: content-box;
+    box-shadow: 1px 1px #e4e4e4;
+}
+.box {
+    display: flex;
+    padding-top: 2rem;
+}
+.box .text{
+    padding-left: 1rem;
 }
 .price{
     display: grid;
@@ -76,16 +122,25 @@ input{
 }
 .explore{
     float: left;
-    padding: 2rem;
+    padding: 0.3rem;
 }
 .pull-right{
     float: right;
-    padding: 2rem;
+    padding: 0.3rem;
+}
+.images{
+    text-align: center;
+}
+.img{
+    padding: 1rem;
 }
 .view{
     display: flex;
     justify-content: flex-end;
     padding: 2rem;
+}
+.copy{
+    padding: 5rem;
 }
 .btn{
     display: inline-block;
@@ -107,4 +162,11 @@ input{
     background:black;
     color:#ffffff;
     padding: 0.5rem 2rem;
+}
+.btn-black_place {
+    display: inline-block;
+    border: none;
+    background:black;
+    color:#ffffff;
+    padding: 0.5rem 15rem;
 }
