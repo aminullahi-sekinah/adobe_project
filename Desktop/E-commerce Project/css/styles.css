@@ -26,37 +26,51 @@ p{
     font-family: 'Segoe UI', sans-serif;
 
 }
-#navbar .container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-}
-#navbar .container .navlinks ul{
-    display: flex;
-}
-#navbar .container .navlinks ul li{
-    padding: 1rem;
-    padding-left: 1rem;
-}
-#navbar{
-    position: sticky;
-    z-index: 2;
-}
 .container{
     max-width: 1100px;
     margin: auto;
     padding: 0 1rem;
     
 }
-#section1,
+/*   nav styles   */
+#navbar .container{
+    display: flex;
+    padding: 2rem;
+}
+#navbar .container .xyz{
+    padding-right: 15rem;
+}
+#navbar .container .navlinks{
+    padding-left: 5rem;
+}
+#navbar .container .navlinks ul{
+    display: flex;
+}
+#navbar .container .navlinks ul li{
+    padding-right: 3rem;
+
+}
+#navbar .container .icon{
+    padding-left: 10rem;
+}
+#navbar{
+    position: sticky;
+    z-index: 2;
+}
+
+/*    sections styles      */
+
 #section2,
 #section3,
 #section4,
 #section5{
-    padding-top: 4rem;
+    padding-top: 5rem;
 }
 #section1 .container{
     height: 80vh;
     background: url(../images/landing-image/Image197.png) no-repeat;
+    background-size: 83%;
+    background-position: right;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center
@@ -65,24 +79,12 @@ p{
     background: #ffffff;
 }
 #section1 .container .shop h1{
-    font-size: 30px;
+    font-size: 40px;
 }
-.btn{
-    display: inline-block;
-    border: none;
-    background:#f4f4f4;
-    color:#333;
-    padding: 0.5rem 2rem;
+#section1 .container .container-container .sale-link{
+    padding-top: 3rem;
 }
 
-.btn-shadow{
-    box-shadow: 2px 2px black;
-}
-.btn-border{
-    display: inline-block;
-    border: 1px solid black;
-    padding: 0.5rem 2rem;
-}
 #section2 .container,
 #section3 .container,
 #section4 .container{
@@ -112,9 +114,40 @@ p{
     background-size: 70%;
     position: relative;
     top: 50%;
-    
+}
+#section5 .container h1{
+    font-size: 28px;
+    padding-bottom: 1rem;
+}
+#section5 .container .about-btn{
+    padding-top: 1rem;
 }
 
+
+/* buttons style     */
+
+.btn{
+    display: inline-block;
+    border: none;
+    background:#f4f4f4;
+    color:#333;
+    padding: 0.5rem 2rem;
+}
+
+.btn-shadow{
+    display: inline-block;
+    padding:  0.5rem 2rem;
+    box-shadow: 3px 2px black;
+}
+.btn-border{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0.5rem 2rem;
+}
+
+
+
+/*   footer styling   */
 #main-footer{
     background: #fbfbfb;
     padding: 2rem;
@@ -143,6 +176,9 @@ p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
+}
+.icons{
+    padding: 0.7rem;
 }
 .hh{
     padding-bottom: 3rem;
