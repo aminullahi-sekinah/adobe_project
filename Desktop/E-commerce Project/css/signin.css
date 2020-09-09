@@ -36,7 +36,7 @@ input[type="email"]::placeholder{
 .container{
     max-width: 500px;
     margin: auto;
-    background: #faf2f2;
+    background: #ffffff;
     padding: 0 1rem;
     padding-bottom: 3rem;
     
@@ -44,7 +44,7 @@ input[type="email"]::placeholder{
 .container1{
     max-width: 500px;
     margin: auto;
-    background: #faf2f2;
+    background: #ffffff;
     padding: 2rem 10rem;
     
     
@@ -92,6 +92,9 @@ input[type="email"]::placeholder{
     padding: 1rem 11rem;
     border: none;
     display: inline-block;
+}
+.keep{
+    padding-top: 2rem;
 }
 .explore{
     float: left;

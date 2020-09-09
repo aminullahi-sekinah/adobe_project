@@ -37,14 +37,14 @@ p{
 }
 
 /* navigation styles */
-
-#navbar .container,
-#navlink .container{
+#main-nav{
     background: #ffffff;
     position: sticky;
-    top: 0;
-    width: 100%;
     z-index: 999;
+    top: 0;
+}
+#navbar {
+    background: #ffffff;
 }
 #navbar .container{
     display: flex;
@@ -54,11 +54,13 @@ p{
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
+#navlink{
+    background: #fbfbfb;
+}
 #navlink .container{
     padding: 0.7rem;
     display: flex;
     justify-content: space-between;
-    background-color: #cccccc;
 }
 #navlink .container ul{
     display: flex;

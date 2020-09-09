@@ -33,9 +33,16 @@ p{
     
 }
 /*   nav styles   */
+#navbar {
+    background: #ffffff;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    border-bottom: 0.1px solid #333;
+}
 #navbar .container{
     display: flex;
-    padding: 2rem;
+    padding: 1rem;
 }
 #navbar .container .xyz{
     padding-right: 15rem;

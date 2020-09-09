@@ -34,6 +34,17 @@ p{
 .icons{
     padding: 0.7rem;
 }
+/*    navigation styles    */
+
+#main-nav{
+    background: #ffffff;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+}
+#navbar {
+    background-color: #ffffff;
+}
 #navbar .container{
     display: flex;
     justify-content: space-between;
@@ -42,11 +53,13 @@ p{
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
+#navlink {
+    background-color: #cccccc;
+}
 #navlink .container{
     padding: 0.7rem;
     display: flex;
     justify-content: space-between;
-    background-color: #cccccc;
 }
 #navlink .container ul{
     display: flex;

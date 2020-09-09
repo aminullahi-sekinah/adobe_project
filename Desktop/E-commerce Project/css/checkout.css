@@ -124,6 +124,10 @@ input{
     float: left;
     padding: 0.3rem;
 }
+.explore a {
+    font-weight: lighter;
+    font-family: chiller ;
+}
 .pull-right{
     float: right;
     padding: 0.3rem;

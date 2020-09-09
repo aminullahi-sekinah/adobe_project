@@ -33,22 +33,28 @@ p{
     
 }
 .container_container{
-    max-width: 300px;
+    max-width: 600px;
     margin: auto;
     padding: 0 1rem;
     background: #fbfbfb;
     position: absolute;
+    width: 300px;
     top: 30%;
     right: 30%;
 }
 
 /* navigation styles */
-
-#navbar .container,
-#navlink .container{
+#main-nav{
     background: #ffffff;
     position: sticky;
     z-index: 999;
+    top: 0;
+}
+#navbar {
+    background: #ffffff;
+}
+#navlink {
+    background: #fbfbfb;
 }
 #navbar .container{
     display: flex;
@@ -62,7 +68,6 @@ p{
     padding: 0.7rem;
     display: flex;
     justify-content: space-between;
-    background-color: #cccccc;
 }
 #navlink .container ul{
     display: flex;
@@ -70,10 +75,14 @@ p{
 #navlink .container ul li a{
     padding: 1rem;
 }
+
+
 /* header style */
 header .container h3{
     padding: 3rem;
 }
+
+
 /* body styles  */
 .icons{
     padding: 0.7rem;
@@ -90,6 +99,10 @@ header .container h3{
     background:#f4f4f4;
     color:#333;
     padding: 0.5rem 2rem;
+} 
+.view{
+    text-align: center;
+    padding: 2rem;
 }
 .btn-black{
     display: inline-block;
@@ -149,7 +162,8 @@ header .container h3{
     padding: 0.2rem;
 }
 #section1 .container .box .text .black{
-    border: 1px solid black;
+    border: 1px solid #e4e4e4;
+    font-size: 10px;
     
 }
 #section1 .container .box .text .red{
