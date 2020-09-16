@@ -33,6 +33,42 @@ p{
     padding: 0 1rem;
     
 }
+
+/* navigationn styles   */
+
+#main-nav {
+    background: #ffffff;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+}
+#navbar {
+    background: #ffffff;
+}                                  
+#navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+#navlink {
+    background: #cccccc;
+}
+#navlink .container{
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+#navlink .container ul{
+    display: flex;
+}
+#navlink .container ul li a{
+    padding: 1rem;
+}
+
+
 .btn{
     display: inline-block;
     border: none;
@@ -56,27 +92,11 @@ p{
 .pull-right{
     float: right;
 }
-.container .nav-links ul li a {
-    padding: 1rem;
 
-}
 .icons{
     padding: 0.7rem;
 }
-#navbar .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: center;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-}
-#navlink .container{
-    padding: 0.7rem;
-    display: flex;
-    justify-content: space-between;
-    background-color: #cccccc;
-}
+
 #section1{
     padding-top: 2rem;
 }
@@ -89,5 +109,4 @@ p{
 #section1 .container .hollister .row_images{
     display: grid;
     grid-template-rows: repeat(4,1fr);
-    grid
 }

@@ -30,7 +30,16 @@ p{
     margin: auto;
     padding: 0 1rem;
     
+} 
+#main-nav {
+    background: #ffffff;
+    position: sticky;
+    z-index: 999;
+    top: 0;
 }
+#navbar {
+    background: #ffffff;
+}                                  
 #navbar .container{
     display: flex;
     justify-content: space-between;
@@ -39,11 +48,13 @@ p{
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
+#navlink {
+    background: #cccccc;
+}
 #navlink .container{
     padding: 0.7rem;
     display: flex;
     justify-content: space-between;
-    background-color: #cccccc;
 }
 #navlink .container ul{
     display: flex;
@@ -51,13 +62,124 @@ p{
 #navlink .container ul li a{
     padding: 1rem;
 }
-#section1,
-#section2,
-#section3{
+
+#section1 .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    text-align: center;
+}
+#section1 .container img{
+    width: 70%;
+}
+.no_longer{
+    padding-top: 1rem;
+}
+.longer{
+    padding-bottom: 3rem;
+}
+.who_we_are h3{
+    padding-bottom: 2rem;
+}
+.who_we_are{
+    position: relative;
+    top: 15%;
+}
+#section1 {
     padding-top: 3rem;
+}
+
+#section2 {
+    padding-top: 15rem;
+}
+#section2 .background {
+    background: #f5f5f5;
+}
+#section2 .image_with_background {
+    width: 40%;
+}
+#section2 .container .sub_container img {
+    width: 60%;
+    padding-top: 2rem;
+}
+#section2 .container .sub_container h3 {
+    text-align: left;
+    padding-top: 1rem;
+}
+#section2 .container .sub_container {
+    position: absolute;
+    top: 140%;
+    left: 60%;
+}
+#section3 {
+    padding-top: 25rem;
 }
 #section3 .container {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 5rem;
+}
+.btn{
+    display: inline-block;
+    border: none;
+    background:#f4f4f4;
+    color:#333;
+    padding: 0.5rem 2rem;
+}
+.btn-border{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0.5rem 2rem;
+}
+.btn-color{
+    display: inline-block;
+    border: none;
+    padding: 0.7rem 4rem;
+    background: #ec7d55;
+    color:#ffffff;
+}
+.icons{
+    padding: 0.7rem;
+}
+.search{
+    padding: 0.5rem 15rem;
+}
+#main-footer{
+    background: #fbfbfb;
+    padding: 2rem;
+    
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    grid-gap: 1rem;
+    color: #333333;
+    font-size: 1rem;
+    height: 270px;
+}
+.btn-black{
+    display: inline-block;
+    border: none;
+    background:black;
+    color:#ffffff;
+    padding: 0.5rem 1rem;
+}
+.news{
+    padding-right: 4rem;
+}
+.newsletter{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+.hh{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+.explore{
+    float: left;
+}
+.pull-right{
+    float: right;
 }

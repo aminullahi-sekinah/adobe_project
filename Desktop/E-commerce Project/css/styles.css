@@ -47,9 +47,12 @@ p{
 #navbar .container .xyz{
     padding-right: 15rem;
 }
+
+/*
 #navbar .container .navlinks{
     padding-left: 5rem;
-}
+}*/
+
 #navbar .container .navlinks ul{
     display: flex;
 }

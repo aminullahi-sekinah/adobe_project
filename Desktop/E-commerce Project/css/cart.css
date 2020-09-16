@@ -34,12 +34,15 @@ p{
 
 /* navigation styles */
 
-#navbar .container,
-#navlink .container{
+#main-nav {
     background: #ffffff;
     position: sticky;
     z-index: 999;
+    top: 0;
 }
+#navbar {
+    background: #ffffff;
+}                                  
 #navbar .container{
     display: flex;
     justify-content: space-between;
@@ -48,11 +51,13 @@ p{
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
+#navlink {
+    background: #cccccc;
+}
 #navlink .container{
     padding: 0.7rem;
     display: flex;
     justify-content: space-between;
-    background-color: #cccccc;
 }
 #navlink .container ul{
     display: flex;
@@ -60,6 +65,8 @@ p{
 #navlink .container ul li a{
     padding: 1rem;
 }
+
+
 /* header style */
 header .container h3{
     padding: 3rem;

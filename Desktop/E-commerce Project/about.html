@@ -7,60 +7,101 @@
     <link rel="stylesheet" href="css/about.css">
 </head>
 <body>
-    <nav id="navbar">
-        <div class="container">
-            <h2>XYZ</h2>
-
-            <form>
-                <input type="text" placeholder="search..." class="search">
-                <input type="submit" value="Search" class="btn-color">
-            </form>
-
-            <div class="icons">
-                <i class="fa fa-user"></i>
-                <i class="fa fa-heart" aria-hidden="true"></i>
-                <i class="fa fa-lock" aria-hidden="true"></i>
+    <nav id="main-nav">
+        <nav id="navbar">
+            <div class="container">
+                <h2>XYZ</h2>
+    
+                <form>
+                    <input type="text" placeholder="search..." class="search">
+                    <input type="submit" value="Search" class="btn-color">
+                </form>
+    
+                <div class="icons">
+                    <a href="#" class="icons"><i class="fa fa-user"></i></a>
+                    <a href="#" class="icons"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                    <a href="#" class="icons"><i class="fa fa-lock" aria-hidden="true"></i></a>
+                </div>
             </div>
-        </div>
-    </nav>
-    <nav id="navlink">
-        <div class="container">
-            <ul>
-                <li><a href="#">WOMEN</a></li>
-                <li><a href="#">MEN</a></li>
-                <li><a href="#">SALE</a></li>
-                <li><a href="#">DESIGNER</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">ABOUT US</a></li>
-            </ul>
-        </div>
+        </nav>
+        <nav id="navlink">
+            <div class="container">
+                <ul>
+                    <li><a href="women.html">WOMEN</a></li>
+                    <li><a href="men.html">MEN</a></li>
+                    <li><a href="sale.html">SALE</a></li>
+                    <li><a href="designs.html">DESIGNER</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                </ul>
+            </div>
+        </nav>
     </nav>
 
     <header>
         <div class="container">
             <div>
-                <a href="index.html">Home</a>  &#62; <a href="men.html">Men Clothing</a>
+                <a href="index.html">Home</a>  &#62; <a href="about.html">About</a>
             </div>
         </div>
     </header>
 
+    <section id="section1">
+        <div class="container">
+            <div>
+                <img src="images/designs_images/Image 199.png" alt="image 199">
+                <p class="no_longer"> 
+                    No longer a choice between conscience and 
+                    self-expression, we <br> believe fashion has 
+                    the power to build futures. 
+                    That’s why our <br> exclusive collection is 
+                    aimed to improve the lives of local <br>
+                    communities by offering skills and 
+                    support to drive sustainable <br> development.
+                    Does good, looks good.
+                </p>
+            </div>
+            <div class="who_we_are">
+                <h3>
+                    WHO WE ARE?
+                </h3>
+                <p class="longer">
+                    No longer a choice between conscience and 
+                    self-expression, we <br> believe fashion has 
+                    the power to build futures. 
+                    That’s why our <br> exclusive collection is 
+                    aimed to improve the lives of local  <br>
+                    communities by offering skills and 
+                    support to drive sustainable <br> development.
+                    Does good, looks good.
+                </p>
+                <img src="images/designs_images/Image 200.png" alt="">
+
+            </div>
+        </div>
+    </section>
     
     <section id="section2">
-        <div>
-            <img src="images/designs_images/Image 132.png" alt="">
+        <div class="background">
+            <div class="image_with_background">
+                <img src="images/designs_images/Image 132.png" alt="">
+            </div>
         </div>
-        <div>
-            <p>
-                No longer a choice between conscience and 
-                self-expression, we believe fashion has 
-                the power to build futures. 
-                That’s why our exclusive collection is 
-                aimed to improve the lives of local 
-                communities by offering skills and 
-                support to drive sustainable development.
-                Does good, looks good.
-            </p>
-            <img src="images/designs_images/Image 135.png" alt="">
+        <div class="container">
+            <div class="sub_container">
+                <p>
+                    No longer a choice between conscience and 
+                    self-expression, we <br> believe fashion has 
+                    the power to build futures. 
+                    That’s why our <br> exclusive collection is 
+                    aimed to improve the lives of local <br> 
+                    communities by offering skills and 
+                    support to drive sustainable <br> development.
+                    Does good, looks good.
+                </p>
+                <H3>-BEYOND VISION</H3>
+                <img src="images/designs_images/Image 135.png" alt="">
+            </div>
         </div>
     </section>
 
@@ -72,11 +113,15 @@
                 <p>CEO,XYZ Company 2020</p>
             </div>
             <div>
-                <p>The dynamic growth of the company can be accessed 
+                <p>The dynamic growth of the company can be accessed <br>
                     in retail network devrlopment of clothing studios.
                 </p> <br>
                 <br>
-                <p>No longer a choice between conscience and self-expression, we believe fashion has the power to build futures. That’s why our exclusive collection is aimed to improve the lives of local communities by offering skills and support to drive sustainable development. Does good, looks good.</p>
+                <p>No longer a choice between conscience and self-expression, we <br>
+                     believe fashion has the power to build futures. That’s why our <br>
+                     exclusive collection is aimed to improve the lives of local <br>
+                     communities by offering skills and support to drive sustainable <br>
+                     development. Does good, looks good.</p>
 
             </div>
         </div>
@@ -85,12 +130,12 @@
     <footer id="main-footer">
         <div class="container">
             <div class="footer-container">
-                <div>
+                <div class="news">
                     <h4 class="hh">SUBSCRIBE TO OUR NEWSLETTER</h4>
-                    <p>Subscribe to get special offers, discounts and updates on new products.</p>
-                    <form>
+                    <p>Subscribe to get special offers, discounts and <br> updates on new products.</p>
+                    <form class="newsletter">
                         <input type="email" placeholder="Email Address" >
-                        <input type="submit" value="SUBSCRIBE" class="btn">
+                        <input type="submit" value="SUBSCRIBE" class="btn-black">
                     </form>
                 </div>
                 <div class="links">
@@ -120,13 +165,20 @@
                 </div>
                 <div class="follow">
                     <h4 class="hh">FOLLOW US</h4>
-                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
-                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-                    <a href="https://pinterest.com" target="_blank"><i class="fab fa-pinterest fa-2x"></i></a>
+                    <a class="icons" href="https://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a class="icons" href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a class="icons" href="https://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a class="icons" href="https://pinterest.com" target="_blank"><i class="fab fa-pinterest fa-2x"></i></a>
                 </div>
             </div>
+            <div class="copy">
+                <p class="explore">Copyright &copy; All rights reserved</p>
+                <p class="pull-right">Privacy & cookies | Ts & Cs | Accessibility</p>
+            </div>
+            <div style="clear: both;"></div>
         </div>
     </footer>
+    
+
 </body>
 </html>
