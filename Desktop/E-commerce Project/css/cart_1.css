@@ -9,10 +9,6 @@ a {
     font-family: 'Segoe UI',sans-serif;
     font-weight:bold ;
 }
-/*
-img{
-    width: 100%;
-}*/
 li{
     list-style: none;
 }
@@ -182,8 +178,10 @@ header .container h3{
 #section3 .container .images {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 2rem;
+    gap: 1rem;
     padding-top: 2rem;
+
+
 }
 
 #section2 .container .liness .multiple_lines{
