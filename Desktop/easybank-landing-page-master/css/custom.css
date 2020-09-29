@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: hsl(233, 26%, 24%);
+}
+a:hover{
+    text-decoration: none;
+    color: hsl(136, 65%, 51%);
+}
+
+/* img {
+    width: 100%;
+} */
+
+body{
+    font-family: 'Public Sans', sans-serif;
+    background: hsl(0, 0%, 98%);
+    font-size: 17px;
+    overflow-x: hidden;
+}
+
+/* bootstrap utilities */
+
+.container,
+.row {
+    height: inherit;
+}
+
+.btn-primary{
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+    border: none;
+}
+
+/* navbar */
+
+.navbar {
+    z-index: 3;
+
+}
+.active{ 
+    border-bottom: hsl(136, 65%, 51%) solid 4px; 
+}
+
+/* main header */
+
+#main-header {
+    height: 80vh;
+    background: url(../images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: 700px;
+    background-position-y: -250px;
+}
+#main-header h1{
+    font-size: 3.5rem;
+    color: hsl(233, 26%, 24%);
+}
+#main-header p {
+    color: hsl(233, 8%, 62%);
+}
+#main-header .img {
+    left: 52%;
+    width: 70%;
+}
+
+/* why section style */
+
+#why_section{
+    background: hsl(220, 16%, 96%);
+    padding-top: 7rem;
+}
+#why_section img {
+    width: 50px;
+}
+#why_section h1,
+#why_section h4 {
+    color: hsl(233, 26%, 24%);
+}
+#why_section p {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    font-size: 15px;
+    color: hsl(233, 8%, 62%);
+}
+
+/* Article section style */
+#article_section {
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+}
+.card, .card-header {
+    background: inherit;
+    border: none;
+}
+/* #article_section a {
+    color: hsl(233, 26%, 24%);
+} */
+#article_section p {
+    color: hsl(233, 8%, 62%);
+    font-size: 13px;
+}
+#article_section h6 {
+    font-size: 10px;
+    color: hsl(233, 8%, 62%);
+}
+
+
+/* Footer style */
+
+#main_footer {
+    background: hsl(233, 26%, 24%);
+    height: inherit;
+}
+#main_footer .social img {
+    margin-right: 0.5rem; 
+}
+#main_footer ul li {
+    line-height: 33px;
+}
+.footer_easy {
+    color: hsl(233, 8%, 62%);
+    font-size: 14px;
+}
+#main_footer a {
+    color: hsl(0, 0%, 100%);
+}
+#main_footer a:hover {
+    color: hsl(136, 65%, 51%);
+}
+
+
+/* Media Query */
+
+@media(max-width: 768px){
+    #main-header{
+        background: url(../images/bg-intro-mobile.svg);
+        background-repeat: no-repeat;
+        background-position-y: -100px;
+        background-position-x: center;
+        background-size: contain;
+    }
+    #main-header .img {
+        left: 0;
+        bottom: 50%;
+    }
+
+    #main-header h1 {
+        font-size: 2.5rem;
+    }
+}
